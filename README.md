@@ -6,7 +6,7 @@ The other related and interesting behavior was that of the val loss and train lo
 
 Though a slight increase in accuracy was achieved by alterning the number of epochs, it wasn't significant.
 
-The other aspect that I explored was the evolution of test accuracy with batch size. It exhibits a similar behavior as that of epochs-the test accuracy sort of flattens at some point.
+The other aspect that I explored was the evolution of test accuracy with batch size. It exhibits a similar behavior as that accuracy vs epochs-the test accuracy sort of flattens at some point. The plots are in the repository.
 
 Response to a couple of questions from the notebook:
 
