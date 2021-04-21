@@ -6,6 +6,8 @@ The other related and interesting behavior was that of the val loss and train lo
 
 Though a slight increase in accuracy was achieved by alterning the number of epochs, it wasn't significant.
 
+The other aspect that I explored was the evolution of test accuracy with batch size. It exhibits a similar behavior as that of epochs-the test accuracy sort of flattens at some point.
+
 Response to a couple of questions from the notebook:
 
 how was this data obtained? what goes into engineering the features? what does "quality" mean?
@@ -24,4 +26,4 @@ Ans: No, in the set of data, we do not have any missing or NaN entries (fortunat
 
 4. Our network performs ok with a training, validation, and test accuracy all around 50-60%. What could you change about the network or inputs? How do you think that would affect the model's predictions?
 
-Ans: One way of course, would be to increase the number of epochs. I have explored that aspect in this homework.
+Ans: One way, of course, would be to increase the number of epochs. The one other one was to increase the batch size. I have explored both the aspects in this homework.
